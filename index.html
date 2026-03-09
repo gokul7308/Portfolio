@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokul S | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Gokul S, an Aspiring Software Developer and Web Developer.">
+    <meta name="keywords" content="Gokul S, Web Developer, Portfolio, Software Engineering, AI Enthusiast">
+    <meta name="author" content="Gokul S">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Glassmorphic Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">Gokul.S</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="reveal">Hi, I'm <span class="highlight">Gokul S</span></h1>
+            <p class="reveal">Aspiring <span class="highlight">Software Developer</span> | Web Developer | AI Enthusiast
+            </p>
+            <div class="btn-group reveal">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+                <a href="https://github.com/gokul7308" target="_blank" class="btn btn-secondary"><i
+                        class="fas fa-download"></i> My Resume</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <img src="gokul.jpeg" alt="Gokul S Profile Image" class="profile">
+            <style>
+                .hero-image {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                }
+
+                .profile {
+                    width: 250px;
+                    height: 350px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    border: 4px solid var(--accent-primary);
+                    box-shadow: 0 0 30px rgba(99, 102, 241, 0.6), 0 0 60px rgba(99, 102, 241, 0.4);
+                    animation: float-profile 4s ease-in-out infinite;
+                    transition: transform 0.3s ease;
+                }
+
+                .profile:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 0 40px rgba(99, 102, 241, 0.8), 0 0 80px rgba(99, 102, 241, 0.5);
+                    animation-play-state: paused;
+                }
+
+                @keyframes float-profile {
+                    0% {
+                        transform: translateY(0px);
+                    }
+
+                    50% {
+                        transform: translateY(-15px);
+                    }
+
+                    100% {
+                        transform: translateY(0px);
+                    }
+                }
+
+                @media (max-width: 992px) {
+                    .profile {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            </style>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="glass reveal" style="padding: 2.5rem; border-radius: 1.5rem; text-align: center;">
+            <p style="font-size: 1.125rem; color: var(--text-secondary);">
+                I am a developer passionate about C programming, embedded systems, and AI-powered applications.
+                I have hands-on experience with STM32 microcontrollers and bare-metal programming, focusing on building
+                efficient low-level systems.
+                I have also participated in multiple hackathons, where I collaborated with teams to design innovative
+                solutions within limited timeframes.
+                My interests include IoT, Artificial Intelligence, and building smart real-world technology solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Tech Stack & Skills -->
+    <section id="skills">
+        <h2 class="section-title reveal">My Tech Stack</h2>
+
+        <div class="tech-stack-container">
+
+            <div class="skill-card glass reveal">
+                <i class="fab fa-html5"></i>
+                <h4>HTML5</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fab fa-css3-alt"></i>
+                <h4>CSS3</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fab fa-js"></i>
+                <h4>JavaScript</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fab fa-python"></i>
+                <h4>Python</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-code"></i>
+                <h4>C Programming</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fab fa-git-alt"></i>
+                <h4>Git & GitHub</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-microchip"></i>
+                <h4>STM32</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-microchip"></i>
+                <h4>Embedded Systems</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-cogs"></i>
+                <h4>Bare-Metal Programming</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-network-wired"></i>
+                <h4>IoT</h4>
+            </div>
+
+            <div class="skill-card glass reveal">
+                <i class="fas fa-brain"></i>
+                <h4>Artificial Intelligence</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title reveal">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-date">2025 - Present</div>
+                <h3>Embedded Systems Projects (STM32)</h3>
+                <p style="color: var(--text-secondary);">Developed embedded system projects using STM32
+                    microcontrollers,
+                    focusing on low-level programming, hardware-software interaction,
+                    and efficient system design.</p>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-date">2025</div>
+                <h3>Mechanical Workshop Training Assistant</h3>
+                <p style="color: var(--text-secondary);">As a first-year student, I was selected to lead and assist in
+                    training sessions on mechanical lathe operations,helping guide and support approximately 1,500
+                    fellow students.
+                    I collaborated with peers to demonstrate machining fundamentals, safety practices, and practical
+                    usage of lathe machines, contributing to a hands-on learning environment for mechanical workshop
+                    training.</p>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-date">2025</div>
+                <h3>Hackathon Participant</h3>
+                <p style="color: var(--text-secondary);">Participated in Multiple hackathons, collaborating with teams
+                    to design
+                    and develop innovative solutions within limited timeframes while
+                    applying problem-solving and technical skills.
+                </p>
+            </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass reveal">
+                <img src="https://images.unsplash.com/photo-1592210633466-403c444e137b?q=80&w=800&auto=format&fit=crop"
+                    alt="Weather Application" class="project-img">
+                <div class="project-overlay">
+                    <h3>Weather Application</h3>
+                    <p>A real-time weather app fetching live data from OpenWeather API with a modern UI.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/gokul7308" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass reveal">
+                <img src="https://images.unsplash.com/photo-1518199266791-5374823223f1?q=80&w=800&auto=format&fit=crop"
+                    alt="Love Calculator" class="project-img">
+                <div class="project-overlay">
+                    <h3>Love Calculator</h3>
+                    <p>A fun interactive web app that calculates the compatibility based on names with witty responses.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/gokul7308" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card glass reveal">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+                    alt="Portfolio Website" class="project-img">
+                <div class="project-overlay">
+                    <h3>Personal Portfolio</h3>
+                    <p>A professional and responsive developer portfolio showcasing my projects and professional
+                        journey.</p>
+                    <div class="project-tags">
+                        <span class="tag">Inter</span>
+                        <span class="tag">Glassmorphism</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/gokul7308" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2 class="section-title reveal">Achievements</h2>
+        <div class="tech-stack-container">
+            <div class="skill-card glass reveal">
+                <i class="fas fa-certificate"></i>
+                <h4>100+ Hours of Python</h4>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Completed intensive training in Python
+                    development.</p>
+            </div>
+            <div class="skill-card glass reveal">
+                <i class="fas fa-trophy"></i>
+                <h4>Hackathon Participant</h4>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Actively engaged in problem-solving
+                    hackathons.</p>
+            </div>
+            <div class="skill-card glass reveal">
+                <i class="fas fa-code-branch"></i>
+                <h4>GitHub Contributor</h4>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Consistent learner and open-source
+                    enthusiast.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h3>Let's talk about everything!</h3>
+                <p>Don't like forms? Send me an email. 👋</p>
+                <div class="social-links">
+                    <a href="https://github.com/gokul7308" target="_blank" class="social-icon"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gokul-s-96ba4a36a/" target="_blank" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:gokul7308@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- Formspree Form Implementation -->
+            <form action="https://formspree.io/f/xyzkpvaw" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 <span class="highlight">Gokul S</span>. All rights reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 1rem; color: var(--text-muted);">Built with ❤️ and Modern Web
+            Technologies.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
