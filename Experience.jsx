@@ -14,7 +14,7 @@ const Experience = () => {
             description: "Led and assisted in training sessions on mechanical lathe operations as a first-year student, guiding approximately 1,500 students. Demonstrated machining fundamentals and safety practices."
         },
         {
-            year: "2024 - 2025",
+            year: "2025 - 2026",
             title: "Hackathon Participant",
             description: "Participated in 4+ hackathons, collaborating with cross-functional teams to design and rapidly prototype innovative software and hardware solutions under strict time constraints."
         }
